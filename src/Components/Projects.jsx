@@ -1,6 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import netflix_img from "../assets/netflix.png";
 import projectImg from "../assets/projectImg.webp";
+import E_commerce from "../assets/E_commerce_Img.png";
 
 const projects = [
   {
@@ -14,7 +15,7 @@ const projects = [
   {
     title: "E-Commerce App",
     desc: "Full-stack shopping app with cart, payment & admin dashboard.",
-    image: projectImg,
+    image: E_commerce,
     tech: ["React", "Node", "MongoDB"],
     github: "https://github.com/sumitshankhwar7/E-commerce",
     live: "https://sumitshankhwar7.github.io/E-commerce/",
